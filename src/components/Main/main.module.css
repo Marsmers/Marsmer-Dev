@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.main{
+    background-color: #333;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.472);
+    border: 2px solid rgb(255, 255, 255);
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+h2{color: black;}
+
+
+h1 span {
+    color: whitesmoke;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+
+.sticker{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+}
+
+.stickerAbout{
+    height: 80%;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+}
+.aboutMe{
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    color: white;
+}
+
+.aboutContent > p {
+    font-size: larger;
+}
+
+.aboutContent > h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.projects{
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    color: white;
+}
+
+.projects > h1 {
+    font-size: 70px;
+}
+
+.projectsAbout{
+    width: 100%;
+}
+.background {
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(circle, rgb(144, 111, 255) 0%, rgb(61, 0, 159) 100%);
+    filter: blur(50px);
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    animation: gradientShift 10s infinite; ;
+}
+
+.backgroundProject{
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(circle, rgb(144, 111, 255) 0%, rgb(61, 0, 159) 100%);
+    filter: blur(50px);
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    animation: gradientShift 10s infinite; ;
+}
+
